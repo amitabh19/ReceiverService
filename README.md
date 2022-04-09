@@ -20,7 +20,7 @@
 
 2. To check the POC that object was added in the receiver microservice 
    get the account number received in the previous step and add it to the following URL
-   https://receiver-microservice.herokuapp.com/receiver/<add here and remove angled braces>
+   https://receiver-microservice.herokuapp.com/receiver/{add account number here and remove curly braces}
    then you will get the object back that was used in the previous step
 
 3. To prove that the object was sent as encrypted and decrypted and then added to the database I have attached the screenshot of  the logs of the application, which prove that it was decrypted and then added to database.
